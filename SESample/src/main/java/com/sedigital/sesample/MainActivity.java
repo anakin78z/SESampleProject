@@ -11,7 +11,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.os.Build;
 
-public class MainActivity extends Activity {
+import com.sedigital.sebase.activities.SEActivity;
+import com.sedigital.selogutil.SELogUtil;
+
+public class MainActivity extends SEActivity {
+    private static SELogUtil log = new SELogUtil(MainActivity.class);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,7 +28,6 @@ public class MainActivity extends Activity {
                     .commit();
         }
     }
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

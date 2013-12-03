@@ -1,1 +1,1 @@
-include ':SESample'
+include ':SESample', ':SEBase', ':SELogUtil'

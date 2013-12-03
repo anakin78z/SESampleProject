@@ -1,0 +1,6 @@
+[submodule "SEBase"]
+	path = SEBase
+	url = git@github.com:anakin78z/SEBase.git
+[submodule "SELogUtil"]
+	path = SELogUtil
+	url = git@github.com:anakin78z/SELogUtil.git
